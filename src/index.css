@@ -85,6 +85,131 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+  
+  /* Theme: Deadpool & Wolverine */
+  .theme-deadpool {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
+    
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 98%;
+    
+    --primary: 0 80% 50%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 0 0% 25%;
+    --muted-foreground: 0 0% 70%;
+    
+    --accent: 350 80% 50%;
+    --accent-foreground: 0 0% 98%;
+    
+    --border: 0 0% 30%;
+    --input: 0 0% 20%;
+    --ring: 0 80% 50%;
+  }
+  
+  /* Theme: Cyberpunk */
+  .theme-cyberpunk {
+    --background: 240 10% 10%;
+    --foreground: 180 100% 80%;
+    
+    --card: 240 10% 15%;
+    --card-foreground: 180 100% 80%;
+    
+    --primary: 300 100% 60%;
+    --primary-foreground: 0 0% 0%;
+    
+    --secondary: 180 100% 50%;
+    --secondary-foreground: 0 0% 0%;
+    
+    --muted: 240 20% 20%;
+    --muted-foreground: 180 60% 70%;
+    
+    --accent: 60 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    
+    --border: 300 50% 40%;
+    --input: 240 10% 20%;
+    --ring: 300 100% 60%;
+  }
+  
+  /* Theme: Nature */
+  .theme-nature {
+    --background: 120 30% 96%;
+    --foreground: 120 50% 20%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 120 50% 20%;
+    
+    --primary: 120 60% 40%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 80 60% 90%;
+    --secondary-foreground: 120 50% 20%;
+    
+    --muted: 120 20% 92%;
+    --muted-foreground: 120 20% 40%;
+    
+    --accent: 60 80% 50%;
+    --accent-foreground: 0 0% 20%;
+    
+    --border: 120 30% 80%;
+    --input: 120 20% 96%;
+    --ring: 120 60% 40%;
+  }
+  
+  /* Theme: Ocean */
+  .theme-ocean {
+    --background: 200 70% 95%;
+    --foreground: 200 80% 20%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 200 80% 20%;
+    
+    --primary: 200 80% 50%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 210 70% 90%;
+    --secondary-foreground: 200 80% 20%;
+    
+    --muted: 200 40% 90%;
+    --muted-foreground: 200 40% 40%;
+    
+    --accent: 180 80% 45%;
+    --accent-foreground: 0 0% 98%;
+    
+    --border: 200 50% 80%;
+    --input: 200 40% 96%;
+    --ring: 200 80% 50%;
+  }
+  
+  /* Theme: Space */
+  .theme-space {
+    --background: 240 30% 10%;
+    --foreground: 260 80% 90%;
+    
+    --card: 240 30% 15%;
+    --card-foreground: 260 80% 90%;
+    
+    --primary: 260 80% 60%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 240 30% 20%;
+    --secondary-foreground: 260 80% 90%;
+    
+    --muted: 240 20% 20%;
+    --muted-foreground: 260 40% 70%;
+    
+    --accent: 280 80% 50%;
+    --accent-foreground: 0 0% 98%;
+    
+    --border: 240 30% 30%;
+    --input: 240 30% 20%;
+    --ring: 260 80% 60%;
+  }
 }
 
 @layer base {
