@@ -14,6 +14,7 @@ import TaskCard, { Task } from '@/components/TaskCard';
 import TaskCreator from '@/components/TaskCreator';
 import AISuggestions from '@/components/AISuggestions';
 import TaskProgressChart from '@/components/TaskProgressChart';
+import WeatherWidget from '@/components/WeatherWidget';
 import { StaggerContainer, StaggerItem, PageTransition, SlideUp } from '@/components/animations/Transitions';
 import { formatDate, suggestOptimalTimes, groupTasksByDay } from '@/utils/dateUtils';
 
@@ -147,7 +148,6 @@ const Index = () => {
                 events={tasks}
               />
               
-              {/* Add TaskProgressChart at the bottom */}
               <SlideUp className="mt-6">
                 <TaskProgressChart tasks={tasks} />
               </SlideUp>
@@ -221,6 +221,11 @@ const Index = () => {
                     )}
                   </AnimatePresence>
                 </ScrollArea>
+              </SlideUp>
+
+              {/* Add Weather Widget */}
+              <SlideUp>
+                <WeatherWidget />
               </SlideUp>
             </div>
           </div>
