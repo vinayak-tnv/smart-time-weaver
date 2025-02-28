@@ -15,6 +15,7 @@ import TaskCreator from '@/components/TaskCreator';
 import AISuggestions from '@/components/AISuggestions';
 import TaskProgressChart from '@/components/TaskProgressChart';
 import WeatherWidget from '@/components/WeatherWidget';
+import AIChatBot from '@/components/AIChatBot';
 import { StaggerContainer, StaggerItem, PageTransition, SlideUp } from '@/components/animations/Transitions';
 import { formatDate, suggestOptimalTimes, groupTasksByDay } from '@/utils/dateUtils';
 
@@ -230,6 +231,9 @@ const Index = () => {
             </div>
           </div>
         </main>
+        
+        {/* AI Chat Bot */}
+        <AIChatBot />
         
         <Dialog open={taskCreatorOpen} onOpenChange={setTaskCreatorOpen}>
           <DialogContent className="sm:max-w-[550px]">
